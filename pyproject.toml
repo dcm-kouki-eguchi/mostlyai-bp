@@ -77,7 +77,7 @@ local-gpu = [
     # "mostlyai-engine[gpu] @ git+https://github.com/mostly-ai/mostlyai-engine.git@main",  # for development
     # "mostlyai-qa @ git+https://github.com/mostly-ai/mostlyai-qa.git@main",  # for development
     #"mostlyai-engine[gpu]  @ git+https://github.com/dcm-kouki-eguchi/mostlyai-engine-bp.git@main",  # for release
-    "mostlyai-engine = { path = \"../mostlyai-engine-bp\", extras = [\"gpu\"] }" # forkリポジトリ
+    "mostlyai-engine = { path = \"../mostlyai-engine-bp\", extras = [\"gpu\"] }", # forkリポジトリ
     "mostlyai-qa==1.9.8",  # for release
     "fastapi>=0.115.6,<0.116",
     "uvicorn>=0.34.0,<0.35",
